@@ -33,8 +33,11 @@ input {
     text-align: center;
     padding: 6px 12px;
     border-radius: 10px;
-    
+}
 
+.show:hover {
+    cursor: pointer;
+    outline: none;
 }
 
 input:focus {
@@ -54,7 +57,10 @@ body{
     height: 30px;
     border-radius: 5px;
     width: 30px;
-   
+}
+
+.butStyle:hover {
+    cursor: pointer;
 }
 
 .sStyle {
